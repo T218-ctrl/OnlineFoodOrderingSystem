@@ -12,6 +12,12 @@ This is an online food ordering system built using .NET and a database. The appl
 - **Order Page**: Place and track orders with options to add, delete, edit, and update items.
 - **Payment Page**: Process payments for orders with options to add, delete, edit, and update items.
 
+## Setting Up the Database
+
+1. Open SQL Server Management Studio (SSMS).
+2. Run the script `DatabaseScripts/your_script_name.sql` to create the database structure and insert initial data.
+3. Update the connection string in the application configuration file to point to your database.
+
 ## Installation
 
 1. **Clone the Repository**:
